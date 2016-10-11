@@ -47,3 +47,7 @@ An implementation is provided for `NSValue`, which provides support for the foll
 An implementation is provided for colors (both for iOS and macOS). By default, color interpolation is performed in Lab colorspace for best possible interpolation quality. If performance is an issue, you may use `LNInterpolationBehaviorUseRGBColorSpace` (`.useRGBColorSpace` in Swift) to specify a behavior where RGB colorspace is used.
 
 <img src="Supplements/Colors.png" />
+
+##Demo Project
+
+A demo playground is provided. Open LNInterpolationExample/LNInterpolationExample.xcworkspace and build the framework for macOS. Open the playground and explore the available pages.
