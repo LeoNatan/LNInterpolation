@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:LNInterpolationFramework/LNInterpolationFramework.xcodeproj">
+      location = "group:../LNInterpolation/LNInterpolation.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/lnatan/Desktop/LNInterpolation/LNInterpolationExample/LNInterpolation.playground">
+      location = "group:/Users/lnatan/Desktop/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground">
    </FileRef>
 </Workspace>

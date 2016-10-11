@@ -6,14 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LNInterpolable.h"
+#import <LNInterpolation/LNInterpolable.h>
 
 /**
  Interpolates between @c NSValue objects.
  Currently, the following value types are supported: 
-	Numbers (@c NSNumber)
+	Numbers (@c NSNumber), decimal numbers (@c NSDecimalNumber)
 	Core Graphics: CGPoint, CGSize, CGVector, CGRect, CGAffineTransform (@c NSValue)
 	UIKit: UIOffset, UIEdgeInsets (@c NSValue)
 	AppKit: NSEdgeInsets (@c NSValue)
  */
-@interface NSValue (LNInterpolation) <LNInterpolable> @end
+@interface NSValue (Interpolation) <LNInterpolable> @end

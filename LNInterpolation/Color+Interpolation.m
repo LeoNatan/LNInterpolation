@@ -7,7 +7,7 @@
 
 #if __has_include(<UIKit/UIKit.h>) || __has_include(<AppKit/AppKit.h>)
 
-#import "Color+LNInterpolation.h"
+#import "Color+Interpolation.h"
 
 #if __has_include(<UIKit/UIKit.h>)
 #define Color UIColor
@@ -128,14 +128,14 @@ static inline Color* LNInterpolateColor(Color* fromValue, Color* toValue, CGFloa
 	return colorConverter(arrayOutput);
 }
 
-@implementation Color (LNInterpolation)
+@implementation Color (Interpolation)
 
 - (instancetype)interpolateToValue:(Color*)toValue progress:(double)p
 {
-	return [self interpolateToValue:toValue behavior:LNInterpolationBehaviorUseDefault progress:p];
+	return [self interpolateToValue:toValue progress:p behavior:LNInterpolationBehaviorUseDefault];
 }
 
-- (instancetype)interpolateToValue:(id)toValue behavior:(LNInterpolationBehavior)behavior progress:(double)p
+- (instancetype)interpolateToValue:(id)toValue progress:(double)p behavior:(LNInterpolationBehavior)behavior
 {
 	if([toValue isKindOfClass:[Color class]] == NO)
 	{

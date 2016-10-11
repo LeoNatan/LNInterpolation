@@ -1,11 +1,11 @@
 //
-//  NSValue+Interpolation.m
+//  NSValue+Interpolation.mm
 //
 //  Created by Leo Natan on 01/10/2016.
 //  Copyright © 2016 Leo Natan. All rights reserved.
 //
 
-#import "NSValue+LNInterpolation.h"
+#import "NSValue+Interpolation.h"
 
 #if __has_include(<CoreGraphics/CoreGraphics.h>)
 #import <CoreGraphics/CoreGraphics.h>
@@ -29,7 +29,7 @@
 extern "C" double LNLinearInterpolate(double from, double to, double p);
 
 #if __has_include(<UIKit/UIKit.h>)
-static CGAffineTransform _LNInterpolateCGAffineTransform(const CGAffineTransform& fromTransform, const CGAffineTransform& toTransform, CGFloat p)
+static inline CGAffineTransform _LNInterpolateCGAffineTransform(const CGAffineTransform& fromTransform, const CGAffineTransform& toTransform, CGFloat p)
 {
 	CGAffineTransform rv;
 	rv.a = LNLinearInterpolate(fromTransform.a, toTransform.a, p);
@@ -43,14 +43,14 @@ static CGAffineTransform _LNInterpolateCGAffineTransform(const CGAffineTransform
 }
 #endif
 
-@implementation NSValue (LNInterpolation)
+@implementation NSValue (Interpolation)
 
 - (instancetype)interpolateToValue:(id)toValue progress:(double)p
 {
-	return [self interpolateToValue:toValue behavior:LNInterpolationBehaviorUseDefault progress:p];
+	return [self interpolateToValue:toValue progress:p behavior:LNInterpolationBehaviorUseDefault];
 }
 
-- (instancetype)interpolateToValue:(id)toValue behavior:(LNInterpolationBehavior)behavior progress:(double)p
+- (instancetype)interpolateToValue:(id)toValue progress:(double)p behavior:(LNInterpolationBehavior)behavior
 {
 	if(p <= 0)
 	{

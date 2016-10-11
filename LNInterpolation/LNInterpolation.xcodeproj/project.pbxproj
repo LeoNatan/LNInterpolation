@@ -7,25 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39EE69301DA4E1B100F19FA9 /* LNInterpolationFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EE692E1DA4E1B100F19FA9 /* LNInterpolationFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EE693C1DA4E1CC00F19FA9 /* Color+LNInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EE69361DA4E1CC00F19FA9 /* Color+LNInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EE693D1DA4E1CC00F19FA9 /* Color+LNInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE69371DA4E1CC00F19FA9 /* Color+LNInterpolation.m */; };
-		39EE693E1DA4E1CC00F19FA9 /* LNInterpolable.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EE69381DA4E1CC00F19FA9 /* LNInterpolable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EE693F1DA4E1CC00F19FA9 /* LNInterpolable.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE69391DA4E1CC00F19FA9 /* LNInterpolable.m */; };
-		39EE69401DA4E1CC00F19FA9 /* NSValue+LNInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39EE693A1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EE69411DA4E1CC00F19FA9 /* NSValue+LNInterpolation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EE693B1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.mm */; };
+		392B81EA1DAD575B00EF31DD /* Color+Interpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B81E21DAD575B00EF31DD /* Color+Interpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B81EB1DAD575B00EF31DD /* Color+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B81E31DAD575B00EF31DD /* Color+Interpolation.m */; };
+		392B81EC1DAD575B00EF31DD /* LNInterpolable.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B81E41DAD575B00EF31DD /* LNInterpolable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B81ED1DAD575B00EF31DD /* LNInterpolable.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B81E51DAD575B00EF31DD /* LNInterpolable.m */; };
+		392B81EE1DAD575B00EF31DD /* LNInterpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B81E61DAD575B00EF31DD /* LNInterpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B81F01DAD575B00EF31DD /* NSValue+Interpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = 392B81E81DAD575B00EF31DD /* NSValue+Interpolation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		392B81F11DAD575B00EF31DD /* NSValue+Interpolation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 392B81E91DAD575B00EF31DD /* NSValue+Interpolation.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39EE692B1DA4E1B100F19FA9 /* LNInterpolationFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LNInterpolationFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39EE692E1DA4E1B100F19FA9 /* LNInterpolationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNInterpolationFramework.h; sourceTree = "<group>"; };
-		39EE692F1DA4E1B100F19FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39EE69361DA4E1CC00F19FA9 /* Color+LNInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Color+LNInterpolation.h"; path = "../../../Color+LNInterpolation.h"; sourceTree = "<group>"; };
-		39EE69371DA4E1CC00F19FA9 /* Color+LNInterpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Color+LNInterpolation.m"; path = "../../../Color+LNInterpolation.m"; sourceTree = "<group>"; };
-		39EE69381DA4E1CC00F19FA9 /* LNInterpolable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNInterpolable.h; path = ../../../LNInterpolable.h; sourceTree = "<group>"; };
-		39EE69391DA4E1CC00F19FA9 /* LNInterpolable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNInterpolable.m; path = ../../../LNInterpolable.m; sourceTree = "<group>"; };
-		39EE693A1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValue+LNInterpolation.h"; path = "../../../NSValue+LNInterpolation.h"; sourceTree = "<group>"; };
-		39EE693B1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSValue+LNInterpolation.mm"; path = "../../../NSValue+LNInterpolation.mm"; sourceTree = "<group>"; };
+		392B81E21DAD575B00EF31DD /* Color+Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+Interpolation.h"; sourceTree = SOURCE_ROOT; };
+		392B81E31DAD575B00EF31DD /* Color+Interpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Color+Interpolation.m"; sourceTree = SOURCE_ROOT; };
+		392B81E41DAD575B00EF31DD /* LNInterpolable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNInterpolable.h; sourceTree = SOURCE_ROOT; };
+		392B81E51DAD575B00EF31DD /* LNInterpolable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNInterpolable.m; sourceTree = SOURCE_ROOT; };
+		392B81E61DAD575B00EF31DD /* LNInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNInterpolation.h; sourceTree = SOURCE_ROOT; };
+		392B81E81DAD575B00EF31DD /* NSValue+Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Interpolation.h"; sourceTree = SOURCE_ROOT; };
+		392B81E91DAD575B00EF31DD /* NSValue+Interpolation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSValue+Interpolation.mm"; sourceTree = SOURCE_ROOT; };
+		39EE692B1DA4E1B100F19FA9 /* LNInterpolation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LNInterpolation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +41,7 @@
 		39EE69211DA4E1B100F19FA9 = {
 			isa = PBXGroup;
 			children = (
-				39EE692D1DA4E1B100F19FA9 /* LNInterpolationFramework */,
+				39EE692D1DA4E1B100F19FA9 /* LNInterpolation */,
 				39EE692C1DA4E1B100F19FA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,24 +49,23 @@
 		39EE692C1DA4E1B100F19FA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39EE692B1DA4E1B100F19FA9 /* LNInterpolationFramework.framework */,
+				39EE692B1DA4E1B100F19FA9 /* LNInterpolation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39EE692D1DA4E1B100F19FA9 /* LNInterpolationFramework */ = {
+		39EE692D1DA4E1B100F19FA9 /* LNInterpolation */ = {
 			isa = PBXGroup;
 			children = (
-				39EE69381DA4E1CC00F19FA9 /* LNInterpolable.h */,
-				39EE69391DA4E1CC00F19FA9 /* LNInterpolable.m */,
-				39EE693A1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.h */,
-				39EE693B1DA4E1CC00F19FA9 /* NSValue+LNInterpolation.mm */,
-				39EE69361DA4E1CC00F19FA9 /* Color+LNInterpolation.h */,
-				39EE69371DA4E1CC00F19FA9 /* Color+LNInterpolation.m */,
-				39EE692E1DA4E1B100F19FA9 /* LNInterpolationFramework.h */,
-				39EE692F1DA4E1B100F19FA9 /* Info.plist */,
+				392B81E61DAD575B00EF31DD /* LNInterpolation.h */,
+				392B81E41DAD575B00EF31DD /* LNInterpolable.h */,
+				392B81E51DAD575B00EF31DD /* LNInterpolable.m */,
+				392B81E81DAD575B00EF31DD /* NSValue+Interpolation.h */,
+				392B81E91DAD575B00EF31DD /* NSValue+Interpolation.mm */,
+				392B81E21DAD575B00EF31DD /* Color+Interpolation.h */,
+				392B81E31DAD575B00EF31DD /* Color+Interpolation.m */,
 			);
-			path = LNInterpolationFramework;
+			path = LNInterpolation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,19 +75,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EE69301DA4E1B100F19FA9 /* LNInterpolationFramework.h in Headers */,
-				39EE693C1DA4E1CC00F19FA9 /* Color+LNInterpolation.h in Headers */,
-				39EE69401DA4E1CC00F19FA9 /* NSValue+LNInterpolation.h in Headers */,
-				39EE693E1DA4E1CC00F19FA9 /* LNInterpolable.h in Headers */,
+				392B81EA1DAD575B00EF31DD /* Color+Interpolation.h in Headers */,
+				392B81EE1DAD575B00EF31DD /* LNInterpolation.h in Headers */,
+				392B81F01DAD575B00EF31DD /* NSValue+Interpolation.h in Headers */,
+				392B81EC1DAD575B00EF31DD /* LNInterpolable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39EE692A1DA4E1B100F19FA9 /* LNInterpolationFramework */ = {
+		39EE692A1DA4E1B100F19FA9 /* LNInterpolation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39EE69331DA4E1B100F19FA9 /* Build configuration list for PBXNativeTarget "LNInterpolationFramework" */;
+			buildConfigurationList = 39EE69331DA4E1B100F19FA9 /* Build configuration list for PBXNativeTarget "LNInterpolation" */;
 			buildPhases = (
 				39EE69261DA4E1B100F19FA9 /* Sources */,
 				39EE69271DA4E1B100F19FA9 /* Frameworks */,
@@ -100,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = LNInterpolationFramework;
-			productName = LNInterpolationFramework;
-			productReference = 39EE692B1DA4E1B100F19FA9 /* LNInterpolationFramework.framework */;
+			name = LNInterpolation;
+			productName = LNInterpolation;
+			productReference = 39EE692B1DA4E1B100F19FA9 /* LNInterpolation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -116,11 +114,12 @@
 				TargetAttributes = {
 					39EE692A1DA4E1B100F19FA9 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 39EE69251DA4E1B100F19FA9 /* Build configuration list for PBXProject "LNInterpolationFramework" */;
+			buildConfigurationList = 39EE69251DA4E1B100F19FA9 /* Build configuration list for PBXProject "LNInterpolation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39EE692A1DA4E1B100F19FA9 /* LNInterpolationFramework */,
+				39EE692A1DA4E1B100F19FA9 /* LNInterpolation */,
 			);
 		};
 /* End PBXProject section */
@@ -152,9 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EE693F1DA4E1CC00F19FA9 /* LNInterpolable.m in Sources */,
-				39EE693D1DA4E1CC00F19FA9 /* Color+LNInterpolation.m in Sources */,
-				39EE69411DA4E1CC00F19FA9 /* NSValue+LNInterpolation.mm in Sources */,
+				392B81F11DAD575B00EF31DD /* NSValue+Interpolation.mm in Sources */,
+				392B81ED1DAD575B00EF31DD /* LNInterpolable.m in Sources */,
+				392B81EB1DAD575B00EF31DD /* Color+Interpolation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +201,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALID_ARCHS = "i386 x86_64 armv7 armv7s arm64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -249,11 +250,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALID_ARCHS = "i386 x86_64 armv7 armv7s arm64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -263,6 +266,7 @@
 		39EE69341DA4E1B100F19FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -270,12 +274,13 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = LNInterpolationFramework/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonatan.LNInterpolationFramework;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonatan.LNInterpolation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -283,6 +288,7 @@
 		39EE69351DA4E1B100F19FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -290,10 +296,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = LNInterpolationFramework/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonatan.LNInterpolationFramework;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonatan.LNInterpolation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -303,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39EE69251DA4E1B100F19FA9 /* Build configuration list for PBXProject "LNInterpolationFramework" */ = {
+		39EE69251DA4E1B100F19FA9 /* Build configuration list for PBXProject "LNInterpolation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39EE69311DA4E1B100F19FA9 /* Debug */,
@@ -312,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39EE69331DA4E1B100F19FA9 /* Build configuration list for PBXNativeTarget "LNInterpolationFramework" */ = {
+		39EE69331DA4E1B100F19FA9 /* Build configuration list for PBXNativeTarget "LNInterpolation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39EE69341DA4E1B100F19FA9 /* Debug */,

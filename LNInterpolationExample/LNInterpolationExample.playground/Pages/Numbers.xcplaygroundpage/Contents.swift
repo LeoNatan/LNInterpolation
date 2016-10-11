@@ -1,5 +1,5 @@
 import Foundation
-import LNInterpolationFramework
+import LNInterpolation
 
 let a : NSNumber = 20
 let b : NSNumber = 100

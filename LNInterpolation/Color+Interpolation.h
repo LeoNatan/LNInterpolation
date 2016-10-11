@@ -1,5 +1,5 @@
 //
-//  UIColor+Interpolation.h
+//  Color+Interpolation.h
 //
 //  Created by Leo Natan on 01/10/2016.
 //  Copyright © 2016 Leo Natan. All rights reserved.
@@ -7,7 +7,7 @@
 
 #if __has_include(<UIKit/UIKit.h>) || __has_include(<AppKit/AppKit.h>)
 
-#import "LNInterpolable.h"
+#import <LNInterpolation/LNInterpolable.h>
 
 #if __has_include(<UIKit/UIKit.h>)
 #import <UIKit/UIKit.h>
