@@ -48,6 +48,18 @@ An implementation is provided for colors (both for iOS and macOS). By default, c
 
 <img src="Supplements/Colors.png" />
 
-##Demo Project
+##Demo Playground
 
 A demo playground is provided. Open LNInterpolationExample/LNInterpolationExample.xcworkspace and build the framework for macOS. Open the playground and explore the available pages.
+
+##Adding to Your Project
+
+###Carthage
+
+Add the following to your Cartfile:
+
+```github "LeoNatan/LNInterpolation"```
+
+###Manual
+
+Drag the `LNInterpolation.xcodeproj` project to your project, and add `LNInterpolation.framework` to **Embedded Binaries** in your project target's **General** tab. Xcode should sort everything else on its own.
