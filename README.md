@@ -2,6 +2,12 @@
 
 An interpolation framework for Cocoa and Cocoa Touch.
 
+[![GitHub release](https://img.shields.io/github/release/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/releases) <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BR68NJEJXGWL6" title="Donate to this project using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg?style=flat" alt="PayPal Donation Button" /></a></span>
+
+[![GitHub stars](https://img.shields.io/github/stars/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LeoNatan/LNInterpolation/master/LICENSE) [![Carthage compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+[![GitHub issues](https://img.shields.io/github/issues-raw/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/issues?q=is%3Aissue+is%3Aclosed) [![GitHub contributors](https://img.shields.io/github/contributors/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/graphs/contributors)
+
 ##Protocol
 
 The framework defines a protocol, `LNInterpolable` (`Interpolable` in Swift), defining a common API for interpolating between two values.
