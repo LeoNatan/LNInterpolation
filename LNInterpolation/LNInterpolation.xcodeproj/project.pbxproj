@@ -65,7 +65,7 @@
 				392B81E21DAD575B00EF31DD /* Color+Interpolation.h */,
 				392B81E31DAD575B00EF31DD /* Color+Interpolation.m */,
 			);
-			path = LNInterpolation;
+			name = LNInterpolation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,10 +89,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39EE69331DA4E1B100F19FA9 /* Build configuration list for PBXNativeTarget "LNInterpolation" */;
 			buildPhases = (
-				39EE69261DA4E1B100F19FA9 /* Sources */,
-				39EE69271DA4E1B100F19FA9 /* Frameworks */,
 				39EE69281DA4E1B100F19FA9 /* Headers */,
+				39EE69271DA4E1B100F19FA9 /* Frameworks */,
 				39EE69291DA4E1B100F19FA9 /* Resources */,
+				39EE69261DA4E1B100F19FA9 /* Sources */,
 			);
 			buildRules = (
 			);
