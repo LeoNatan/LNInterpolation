@@ -137,10 +137,7 @@ static inline Color* LNInterpolateColor(Color* fromValue, Color* toValue, CGFloa
 
 - (instancetype)interpolateToValue:(id)toValue progress:(double)p behavior:(LNInterpolationBehavior)behavior
 {
-	if([toValue isKindOfClass:[Color class]] == NO)
-	{
-		return nil;
-	}
+	NSParameterAssert([toValue isKindOfClass:[Color class]]);
 	
 	if(p <= 0)
 	{
