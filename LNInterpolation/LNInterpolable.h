@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 NS_SWIFT_NAME(InterpolationBehavior)
-typedef const NSString* LNInterpolationBehavior CF_STRING_ENUM;
+typedef const NSString* LNInterpolationBehavior NS_EXTENSIBLE_TYPED_ENUM;
 
 /**
  Interpolate using the default behavor of each implementation.
