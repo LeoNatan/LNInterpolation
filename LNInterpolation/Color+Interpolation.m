@@ -115,7 +115,7 @@ static Color* LNColorFromLabComponents(NSArray<NSNumber*>* components)
 	return LNColorFromRGBComponents(@[@(r), @(g), @(b), components[3]]);
 }
 
-static inline Color* LNInterpolateColor(Color* fromValue, Color* toValue, CGFloat p, NSArray* (*compConverter)(Color*), Color* (*colorConverter)(NSArray*))
+static inline __attribute__((__always_inline__)) Color* LNInterpolateColor(Color* fromValue, Color* toValue, CGFloat p, NSArray* (*compConverter)(Color*), Color* (*colorConverter)(NSArray*))
 {
 	NSArray<NSNumber*>* arrayC1 = compConverter(fromValue);
 	NSArray<NSNumber*>* arrayC2 = compConverter(toValue);
