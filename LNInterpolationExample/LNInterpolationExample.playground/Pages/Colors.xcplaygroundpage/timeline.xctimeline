@@ -3,22 +3,32 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1670&amp;EndingColumnNumber=27&amp;EndingLineNumber=42&amp;StartingColumnNumber=1&amp;StartingLineNumber=38&amp;Timestamp=497905151.73887"
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=0&amp;CharacterRangeLoc=1672&amp;EndingColumnNumber=0&amp;EndingLineNumber=44&amp;StartingColumnNumber=0&amp;StartingLineNumber=44&amp;Timestamp=576172380.767884"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=2&amp;CharacterRangeLoc=1670&amp;EndingColumnNumber=27&amp;EndingLineNumber=42&amp;StartingColumnNumber=1&amp;StartingLineNumber=38&amp;Timestamp=497905151.739046"
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=0&amp;CharacterRangeLoc=1672&amp;EndingColumnNumber=0&amp;EndingLineNumber=44&amp;StartingColumnNumber=0&amp;StartingLineNumber=44&amp;Timestamp=576172380.768052"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=32&amp;CharacterRangeLoc=1600&amp;EndingColumnNumber=33&amp;EndingLineNumber=41&amp;StartingColumnNumber=1&amp;StartingLineNumber=41&amp;Timestamp=497905152.519629"
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=32&amp;CharacterRangeLoc=1633&amp;EndingColumnNumber=32&amp;EndingLineNumber=43&amp;StartingColumnNumber=0&amp;StartingLineNumber=43&amp;Timestamp=576172380.7681741"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "#CharacterRangeLen=38&amp;CharacterRangeLoc=1634&amp;EndingColumnNumber=39&amp;EndingLineNumber=43&amp;StartingColumnNumber=1&amp;StartingLineNumber=43&amp;Timestamp=497905152.519629"
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=5&amp;CharacterRangeLoc=1667&amp;EndingColumnNumber=0&amp;EndingLineNumber=44&amp;StartingColumnNumber=34&amp;StartingLineNumber=43&amp;Timestamp=576172380.768292"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=32&amp;CharacterRangeLoc=1600&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=1&amp;StartingLineNumber=41&amp;Timestamp=576172380.768411"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/lnatan/Desktop/GitHub%20(Private)/LNInterpolation/LNInterpolationExample/LNInterpolationExample.playground/Pages/Colors.xcplaygroundpage#CharacterRangeLen=38&amp;CharacterRangeLoc=1634&amp;EndingColumnNumber=0&amp;EndingLineNumber=44&amp;StartingColumnNumber=1&amp;StartingLineNumber=43&amp;Timestamp=576172380.768526"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
