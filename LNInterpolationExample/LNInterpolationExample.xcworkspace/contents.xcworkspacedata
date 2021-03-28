@@ -7,10 +7,4 @@
    <FileRef
       location = "group:LNInterpolationExample.playground">
    </FileRef>
-   <FileRef
-      location = "group:LNInterpolationExample_iOS/LNInterpolationExample_iOS.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LNInterpolationExample_macOS/LNInterpolationExample_macOS.xcodeproj">
-   </FileRef>
 </Workspace>
