@@ -2,11 +2,9 @@
 
 An interpolation framework for Cocoa and Cocoa Touch.
 
-[![GitHub release](https://img.shields.io/github/release/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/releases) <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BR68NJEJXGWL6" title="Donate to this project using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg?style=flat" alt="PayPal Donation Button" /></a></span>
+[![GitHub release](https://img.shields.io/github/release/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/releases) [![GitHub stars](https://img.shields.io/github/stars/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LeoNatan/LNInterpolation/master/LICENSE) <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BR68NJEJXGWL6" title="Donate to this project using PayPal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg?style=flat" alt="PayPal Donation Button" /></a></span>
 
-[![GitHub stars](https://img.shields.io/github/stars/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/stargazers) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LeoNatan/LNInterpolation/master/LICENSE) [![Carthage compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/issues?q=is%3Aissue+is%3Aclosed) [![GitHub contributors](https://img.shields.io/github/contributors/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues-raw/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/issues) [![GitHub contributors](https://img.shields.io/github/contributors/LeoNatan/LNInterpolation.svg)](https://github.com/LeoNatan/LNInterpolation/graphs/contributors) [![Swift Package Manager compatible](https://img.shields.io/badge/swift%20package%20manager-compatible-green)](https://swift.org/package-manager/) [![Carthage compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Protocol
 
@@ -59,6 +57,24 @@ An implementation is provided for colors (both for iOS and macOS). By default, c
 A demo playground is provided. Open LNInterpolationExample/LNInterpolationExample.xcworkspace and build the framework for macOS. Open the playground and explore the available pages.
 
 ## Adding to Your Project
+
+### Swift Package Manager
+
+Swift Package Manager is the recommended way to integrate `LNInterpolation` in your project.
+
+`LNInterpolation` supports SPM versions 5.1.0 and above. To use SPM, you should use Xcode 11 to open your project. Click `File` -> `Swift Packages` -> `Add Package Dependency`, enter `https://github.com/LeoNatan/LNInterpolation`. Select the version you’d like to use.
+
+You can also manually add the package to your `Package.swift` file:
+
+```swift
+.package(url: "https://github.com/LeoNatan/LNInterpolation.git", from: "1.0")
+```
+
+And the dependency in your target:
+
+```swift
+.target(name: "BestExampleApp", dependencies: ["LNInterpolation"]),
+```
 
 ### Carthage
 
